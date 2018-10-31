@@ -31,7 +31,7 @@
 
 	</dependencies>
 	<build>
-		<finalName>kafkaConsumer</finalName>
+		<finalName>kafkaProducer</finalName>
 		<plugins>
 
 			<!-- download source code in Eclipse, best practice -->
@@ -69,7 +69,7 @@
 					<!-- MainClass in mainfest make a executable jar -->
 					<archive>
 						<manifest>
-							<mainClass>com.releaseinfo.Consumer</mainClass>
+							<mainClass>com.releaseinfo.Producer</mainClass>
 						</manifest>
 					</archive>
 
